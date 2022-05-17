@@ -1,0 +1,60 @@
+The computing device used is:  GPU
+Total number of parameters: 879410
+The computing device used is:  GPU
+Total number of parameters: 879410
+Architecture of Model have saved in Tensorboard!
+[0;33mload data from ./prepare_dataset/data_path_list/STARE/train.txt [0m
+ori data shape < ori_imgs:(15, 3, 605, 700) GTs:(15, 1, 605, 700) FOVs:(15, 1, 605, 700)
+imgs pixel range 0-255: 
+GTs pixel range 0-255: 
+FOVs pixel range 0-255: 
+==================data have loaded======================
+
+
+EPOCH: 1/50 --(learn_rate:0.000500) | Time: Tue May 17 13:51:14 2022
+OrderedDict([('epoch', 1), ('train_loss', 0.120889), ('val_loss', 0.084415), ('val_acc', 0.966093), ('val_f1', 0.82142), ('val_auc_roc', 0.985854)])
+[0;33mSaving best model![0m
+Best performance at Epoch: 1 | AUC_roc: 0.9858543205243514
+
+EPOCH: 2/50 --(learn_rate:0.000500) | Time: Tue May 17 13:53:34 2022
+OrderedDict([('epoch', 2), ('train_loss', 0.086748), ('val_loss', 0.077668), ('val_acc', 0.968691), ('val_f1', 0.833683), ('val_auc_roc', 0.988301)])
+[0;33mSaving best model![0m
+Best performance at Epoch: 2 | AUC_roc: 0.9883014155926492
+
+EPOCH: 3/50 --(learn_rate:0.000498) | Time: Tue May 17 13:55:54 2022
+OrderedDict([('epoch', 3), ('train_loss', 0.081004), ('val_loss', 0.074356), ('val_acc', 0.96982), ('val_f1', 0.848396), ('val_auc_roc', 0.989493)])
+[0;33mSaving best model![0m
+Best performance at Epoch: 3 | AUC_roc: 0.9894927617661836
+
+EPOCH: 4/50 --(learn_rate:0.000496) | Time: Tue May 17 13:58:13 2022
+OrderedDict([('epoch', 4), ('train_loss', 0.078203), ('val_loss', 0.070622), ('val_acc', 0.971187), ('val_f1', 0.850691), ('val_auc_roc', 0.990483)])
+[0;33mSaving best model![0m
+Best performance at Epoch: 4 | AUC_roc: 0.9904833009231037
+
+EPOCH: 5/50 --(learn_rate:0.000492) | Time: Tue May 17 14:00:32 2022
+OrderedDict([('epoch', 5), ('train_loss', 0.076155), ('val_loss', 0.071241), ('val_acc', 0.970617), ('val_f1', 0.85085), ('val_auc_roc', 0.990435)])
+Best performance at Epoch: 4 | AUC_roc: 0.9904833009231037
+
+EPOCH: 6/50 --(learn_rate:0.000488) | Time: Tue May 17 14:02:51 2022
+OrderedDict([('epoch', 6), ('train_loss', 0.074761), ('val_loss', 0.068748), ('val_acc', 0.971621), ('val_f1', 0.857586), ('val_auc_roc', 0.991291)])
+[0;33mSaving best model![0m
+Best performance at Epoch: 6 | AUC_roc: 0.9912912953710135
+
+EPOCH: 7/50 --(learn_rate:0.000482) | Time: Tue May 17 14:05:10 2022
+OrderedDict([('epoch', 7), ('train_loss', 0.073511), ('val_loss', 0.068871), ('val_acc', 0.971599), ('val_f1', 0.854669), ('val_auc_roc', 0.991138)])
+Best performance at Epoch: 6 | AUC_roc: 0.9912912953710135
+
+EPOCH: 8/50 --(learn_rate:0.000476) | Time: Tue May 17 14:07:28 2022
+OrderedDict([('epoch', 8), ('train_loss', 0.072548), ('val_loss', 0.066385), ('val_acc', 0.972562), ('val_f1', 0.858421), ('val_auc_roc', 0.991836)])
+[0;33mSaving best model![0m
+Best performance at Epoch: 8 | AUC_roc: 0.9918356208704427
+
+EPOCH: 9/50 --(learn_rate:0.000469) | Time: Tue May 17 14:09:48 2022
+OrderedDict([('epoch', 9), ('train_loss', 0.071702), ('val_loss', 0.068343), ('val_acc', 0.971641), ('val_f1', 0.856215), ('val_auc_roc', 0.991392)])
+Best performance at Epoch: 8 | AUC_roc: 0.9918356208704427
+
+EPOCH: 10/50 --(learn_rate:0.000461) | Time: Tue May 17 14:12:08 2022
+OrderedDict([('epoch', 10), ('train_loss', 0.070926), ('val_loss', 0.066986), ('val_acc', 0.972175), ('val_f1', 0.858511), ('val_auc_roc', 0.991751)])
+Best performance at Epoch: 8 | AUC_roc: 0.9918356208704427
+
+EPOCH: 11/50 --(learn_rate:0.000452) | Time: Tue May 17 14:14:27 2022
